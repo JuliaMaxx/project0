@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="background">
+        <header id="advanced_header">
+            <div class="gimg"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" width="60px">
+                <div class="addition">Advanced</div></div>
+            <a href="index.html">Google Search</a>
+        </header>
+        <form action="https://www.google.com/search" id="f2"></form>
+        <main class="content">
+            <div class="h">Find pages with...</div>
+            <div></div>
+            <div class="h">To do this in the search box.</div>
+
+            <div class="txt1">all these words:</div>
+            <input class="i" type="text" form="f2" name="q" autocomplete="off">
+            <div class="txt2">Type the important words: <span class="highlight">tri-colour rat terrier</span></div>
+
+            <div class="txt1">this exact word or phrase:</div>
+            <input class="i" type="text" form="f2" name="as_epq" autocomplete="off">
+            <div class="txt2">Put exact words in quotes: <span class="highlight">"rat terrier"</span></div>
+
+            <div class="txt1">any of these words:</div>
+            <input class="i" type="text" form="f2" name="as_oq" autocomplete="off">
+            <div class="txt2">Type OR between all the words you want: <span class="highlight">miniature OR standard</span></div>
+    
+            <div class="txt1">none of these words:</div>
+            <input class="i" type="text" form="f2" name="as_eq" autocomplete="off">
+            <div class="txt2">Put a minus sign just before words that you don't want: <span class="highlight">-rodent, -"Jack Russell"</span></div>
+
+            <div></div>
+            <div></div>
+            <div class="br"><input type="submit" class="button" value="Advanced Search" form="f2"></div>
+        </main>
+        </div>
+    </body>

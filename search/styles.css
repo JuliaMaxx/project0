@@ -1,0 +1,146 @@
+.background{
+    background-image: url('https://lh6.googleusercontent.com/proxy/fUx750lchxFJb3f37v_-4iJPzcTKtJbd5LDRO7S9Xy7nkPzh7HFU61tN36j4Diaa9Yk3K7kWshRwmqcrulnhbeJrRpIn79PjHN-N=w3840-h2160-p-k-no-nd-mv');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    position:relative;
+}
+body{
+    margin:unset;
+    overflow: hidden;
+    font-family: arial;
+}
+
+header{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    height: 30px;
+    font-size: 10px;
+}
+#advanced_header{
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(103, 103, 103);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.content{
+    color:white;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    row-gap: 10px;
+    margin: 30px;
+    font-size:10px;
+    justify-content: left;
+    width: 80%;
+    column-gap: 10px;
+}
+
+.i{
+    height:8px;
+    padding:5px;
+    font-size:8px ;
+    border: 1px solid grey;
+}
+
+.i:focus,.i:hover{
+    outline:none; 
+    border: 1px solid grey;
+}
+
+.txt1{
+    margin-right: 25px;
+    margin-top:5px;
+}
+.br{
+    margin-left: 50px;
+    margin-top: 10px;
+    color:white;
+}
+
+.highlight{
+    color:lightpink;
+    font-weight: bolder;
+}
+.txt2{
+    font-size: 8px;
+    margin-top: 2px;
+}
+.h{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.gimg{
+    margin-top: 25px;
+    margin-left: 15px;
+    position:relative;
+}
+a{  
+    border-radius: 5px;
+    padding:5px;
+    margin-top:20px;
+    margin-right:15px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+.im{
+    position:relative
+}
+.addition{
+    color:rgb(207, 207, 254);
+    position:absolute;
+    right:-7px;
+    bottom:-5px;
+}
+a:hover{
+    background-color: rgba(254, 172, 243, 0.85);
+}
+.button{
+    background-color: rgb(32, 104, 249);;
+    color:white;
+    padding:7px;
+    border-radius: 5px;
+    border: none;
+    margin-left:5px;
+    font-size: 10px;
+    transition: background-color 0.5s;
+}
+.button:hover{
+    background-color: rgb(254, 172, 243);
+    cursor: pointer;
+}
+.input{
+    width: 310px;
+    padding: 4px;
+    margin: 16px 0px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding:7px 30px;
+    font-size: 10px;
+}
+input:focus{
+    outline:none;   
+}
+.icon{
+    position: absolute;
+    left: 13px;
+    top:24px;
+}
+#f1{
+    position: relative;
+}
+input:hover{
+    background-color: rgb(247, 247, 247);
+}
+.container{
+    position:absolute;
+    width:100%;
+    height:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 100px;
+    align-items: center;
+}
